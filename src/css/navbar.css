@@ -1,0 +1,49 @@
+nav {
+  width: 100%;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  background: transparent;
+}
+
+.logo-box {
+  width: 35px;
+  height: 35px;
+  border: 8px solid;
+  border-radius: 20px;
+}
+
+ul {
+  margin-inline: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li {
+  padding: 10px;
+  font-weight: 500;
+  font-size: 1.125rem;
+  cursor: pointer;
+}
+
+li:hover {
+  opacity: 0.5;
+}
+
+.sign-up {
+  all: unset;
+  padding: 10px 50px;
+  margin-left: auto;
+  border: 1px solid white;
+  border-radius: 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.sign-up:hover {
+  color: var(--hero-color);
+  background-color: white;
+}
